@@ -1,7 +1,6 @@
 # Best_Image_Grab
 
-This project is developed for autonomous drones equipped with a camera that has a low FPS value. The project captures five frames to eliminate distorted images caused by camera vibrations and other factors, selects the sharpest one, and adjusts the brightness.
-
+This project is developed for autonomous drones equipped with a camera that has a low FPS value. The project captures five frames to eliminate distorted images caused by camera vibrations and other factors. By then analyzing and selecting the sharpest frame and adjusting the brightness, it ensures that the images are clear and free from distortions.
 
 ## Features
 
@@ -11,6 +10,6 @@ This project is developed for autonomous drones equipped with a camera that has 
 
 
 ## Requirements
-
+- Python 3.x
 - OpenCV
 - NumPy
